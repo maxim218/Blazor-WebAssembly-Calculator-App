@@ -1,0 +1,14 @@
+﻿<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <PageTitle>Not exist</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <h1>This page does not exist</h1>
+            <a href="/">Move to main page</a>
+            <br />
+            <br />
+        </LayoutView>
+    </NotFound>
+</Router>

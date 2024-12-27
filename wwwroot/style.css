@@ -1,0 +1,56 @@
+﻿html {
+    font-size: 20px;
+}
+
+body {
+    background: rgb(108, 117, 125);
+    color: black;
+    padding: 20px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.main-center-box {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+a {
+    color: rgb(13, 110, 253);
+    cursor: pointer;
+}
+
+.button-inline-block {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgb(113, 44, 249);
+    color: white;
+    cursor: pointer;
+}
+
+.button-inline-block:hover {
+    background: rgb(13, 110, 253);
+    cursor: pointer;
+}
+
+input {
+    color: rgb(33, 37, 41);
+    background: white;
+    border: 1px solid rgb(222, 226, 230);
+    font-size: 20px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    padding: 8px;
+    width: 150px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.wrapper-block {
+    border: 1px solid rgb(222, 226, 230);
+    background: rgb(248, 249, 250);
+    border-radius: 8px;
+    padding: 16px;
+}
